@@ -39,15 +39,6 @@
   left:1080px;
   z-index: 1;
 }
-.icon-menu {
-  position: fixed;
-  top: 48px;
-  left: 35px;
-  width: 28px;
-  height: 27px;
-  object-fit: cover;
-  z-index: 1;
-}
 .events,
 .schedule {
   font-size: var(--font-size-5xl);
@@ -298,16 +289,13 @@ body {
   z-index: 1;
 }
 .icon-menu {
-  position: absolute;
-  height: 2.86%;
-  width: 1.95%;
-  top: 4.39%;
-  right: 103.19%;
-  bottom: 92.75%;
-  left: -5.14%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
+  position: fixed;
+  top: 48px;
+  left: 35px;
+  width: 28px;
+  height: 27px;
+  object-fit: cover;
+  z-index: 1;
 }
 .rectangle-div {
   position: absolute;
