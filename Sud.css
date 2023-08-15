@@ -256,6 +256,57 @@ body {
   left: 230px;
   font-size: 25px;
 }
+input[type=text]{
+  width:100%;
+  border:2px solid #000;
+  border-radius:4px;
+  margin:8px 0;
+  outline:none;
+  padding:20px;
+  box-sizing:border-box;
+  transition:.3s;
+  background-color: #000;
+  color: azure;
+  font-size: large;
+}
+input[type=text]:focus{
+  border-color:black;
+  box-shadow:0 0 8px 0 black;
+}
+input[type=email]{
+  width:100%;
+  border:2px solid #000;
+  border-radius:4px;
+  margin:8px 0;
+  outline:none;
+  padding:20px;
+  box-sizing:border-box;
+  transition:.3s;
+  background-color: #000;
+  color: azure;
+  font-size: large;
+}
+input[type=text]:focus{
+  border-color:black;
+  box-shadow:0 0 8px 0 black;
+}
+input[type=password]{
+  width:100%;
+  border:2px solid #000;
+  border-radius:4px;
+  margin:8px 0;
+  outline:none;
+  padding:20px;
+  box-sizing:border-box;
+  transition:.3s;
+  background-color: #000;
+  color: azure;
+  font-size: large;
+}
+input[type=text]:focus{
+  border-color:black;
+  box-shadow:0 0 8px 0 black;
+}
 
 
 
