@@ -39,6 +39,15 @@
   left:1080px;
   z-index: 1;
 }
+.icon-menu {
+  position: fixed;
+  top: 48px;
+  left: 35px;
+  width: 28px;
+  height: 27px;
+  object-fit: cover;
+  z-index: 1;
+}
 .events,
 .schedule {
   font-size: var(--font-size-5xl);
